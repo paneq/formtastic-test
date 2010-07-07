@@ -1,7 +1,8 @@
 FormtasticRails3::Application.routes.draw do |map|
-  resources :people
-  resources :phonenumber
-  root :to => "people#index"
+
+  resources :phonenumbers
+  root :to => "phonenumbers#new"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

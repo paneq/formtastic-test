@@ -3,4 +3,5 @@
 rake db:migrate
 rails s
 
-Createa new person
+Go to '/'
+The bug is in the selector for phone type. Phone type is a dictionary. It uses STI so it can be used a a strategy.

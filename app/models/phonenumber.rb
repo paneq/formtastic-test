@@ -1,3 +1,3 @@
 class Phonenumber < ActiveRecord::Base
-  belongs_to :owner, :foreign_key => :owner_id, :class_name => 'Person'
+  belongs_to :phone_type, :foreign_key => :phone_kind_id, :class_name => 'PhoneType'
 end

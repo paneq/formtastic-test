@@ -1,0 +1,2 @@
+class WorkPhoneType < PhoneType
+end
