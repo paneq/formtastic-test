@@ -1,6 +1,6 @@
 class CreatePeople < ActiveRecord::Migration
   def self.up
-    create_table :people do |t|
+    create_table :people, :primary_key => :uuid do |t|
       t.string :name
 
       t.timestamps

@@ -12,9 +12,6 @@
   <% end %>
   <%= f.inputs do %>
     <%= f.input :name %>
-    <%= f.semantic_fields_for :phonenumber do |p| %>
-      <%= p.input :number %>
-    <% end %>
   <% end %>
 
   <%= f.buttons do %>

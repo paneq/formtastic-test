@@ -2,7 +2,7 @@ class CreatePhonenumbers < ActiveRecord::Migration
   def self.up
     create_table :phonenumbers do |t|
       t.string :number
-      t.integer :person_id
+      t.integer :owner_id
 
       t.timestamps
     end
